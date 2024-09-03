@@ -1,0 +1,45 @@
+#menu{
+    width: 100%;
+    display: block;
+    float: left;
+}
+#menu ul li a{
+    background-color: rgb(183, 78, 78);
+    padding: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#menu ul li{
+list-style: none;
+float: left;
+}
+#menu ul li a:hover{
+    background-color: rgb(30, 255, 0);
+
+}
+.bloco{
+    width: 50%;
+    height: 400px;
+    display: block;
+    background-color: black;
+}
+.bloco img{
+    width: 45%;
+    height: auto;
+}
+.bloco p{
+    width: 45%;
+    margin-left: 10%;
+    color: rgb(248, 248, 248);
+    background-color: blueviolet;
+}
+.esq{
+    float: left;
+}
+.dir{
+    float: right;
+}
+.quebra{
+    clear: both;
+    margin-bottom: 20px;
+}
